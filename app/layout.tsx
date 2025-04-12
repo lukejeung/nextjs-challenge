@@ -5,12 +5,12 @@ import Navigation from "@/components/navigation";
 import Container from "@/components/container";
 
 const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
+  src: "./fonts/Geist-Regular.woff",
   variable: "--font-geist-sans",
   weight: "100 900",
 });
 const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
+  src: "./fonts/GeistMono-Regular.woff",
   variable: "--font-geist-mono",
   weight: "100 900",
 });
