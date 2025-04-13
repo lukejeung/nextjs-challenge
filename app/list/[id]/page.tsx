@@ -35,9 +35,9 @@ async function getBookList(name: string) {
 export default async function Detail({
   params,
 }: {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }) {
-  const { id } = params;
+  const { id } = await params;
   const bookList: BookList = await getBookList(id);
 
   return (
